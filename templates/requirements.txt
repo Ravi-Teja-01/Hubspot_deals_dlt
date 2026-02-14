@@ -1,0 +1,61 @@
+# Minimal requirements for core functionality
+
+# DLT Core with DuckDB support
+dlt[duckdb]>=0.4.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+isort>=5.12.0
+
+# Type Hints
+types-requests>=2.31.0
+
+# Logging
+loguru>=0.7.0
+
+# CLI
+click>=8.1.0
+
+# Core Flask dependencies
+Flask==3.0.0
+Flask-CORS==4.0.0  
+Flask-RESTX==1.3.0
+SQLAlchemy==2.0.19
+
+# Data validation
+marshmallow==3.20.1
+
+# HTTP requests
+requests==2.31.0
+
+# Data processing and extraction
+dlt[postgres]
+
+# Database driver
+psycopg2-binary==2.9.9
+
+# Production server
+gunicorn==21.2.0
+
+# Utilities
+python-dateutil==2.8.2
+asyncpg==0.29.0
+
+# Encryption support
+cryptography==41.0.8
