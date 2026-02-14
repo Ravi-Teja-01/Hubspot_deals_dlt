@@ -1,0 +1,17 @@
+{
+  "project_name": "hubspot-deals-etl",
+  "service_name": "hubspot_deals",
+  "ports": {
+    "dev": 5200,
+    "stage": 5201,
+    "prod": 5202
+  },
+  "description": "HubSpot Deals data extraction service using DLT",
+  "version": "1.0.0",
+  "author": "Ravi Teja",
+  "environment": {
+    "HUBSPOT_API_KEY": "your_private_app_access_token_here",
+    "DESTINATION": "duckdb",
+    "DATASET_NAME": "hubspot_data"
+  }
+}
